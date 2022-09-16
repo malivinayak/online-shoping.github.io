@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign In</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <ul>
+        <li class="home">
+            <a href="../../index.html">Home</a>
+            <span>
+                <i class="fa fa-angle-right"></i>
+            </span>
+        </li>
+        <li class="signIn">
+            <strong>Sign In </strong>
+        </li>
+    </ul>
+    <h1>Sign In</h1>
+    <form>
+        <label for="username">Username : </label>
+        <input type="text" name="username" id="Uname" 
+        required placeholder="Username" 
+        pattern="[a-zA-z0-9]{3,}"
+        title="Username must be atleast of 3 Alpha Numeric Characters">
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="PassWord"
+        placeholder="Password"
+        pattern="[a-zA-z0-9~`@#!$%^&*;:',.>/?\|]{8,}" 
+        title="Password must be atleast of 8 charcters">
+        <br>
+        <label for="checkBox">Remeber me</label>
+        <input type="checkbox" name="remeberMe" id="remeberMe">
+        <br>
+        <button type="submit">Sign In</button>
+        <br>
+        <label for="registration">Don't have account!! <a href="../Registration/registration.html">Create one</a></label>
+
+
+    </form>
+
+    <script src="" async defer></script>
+</body>
+
+</html>
